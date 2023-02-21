@@ -1,0 +1,171 @@
+.elements-table {
+    width: 1444px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table-container {
+    width: 1444px;
+    margin-bottom: 100px;
+}
+
+.russian_table {
+    text-align: center;
+    font-size: 40px;
+}
+
+.display__f {
+    display: flex;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.p-element {
+    width: 76px;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.p-element:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+.p-element__symbol {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.p-element__name {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.p-element__atom {
+    font-size: 12px;
+}
+
+.p-element__atom_mass {
+    font-size: 10px;
+}
+
+.p-element_VIII_p-element_lanthanides {
+    background-color:  #64c0da;
+    width: 152px;
+}
+.p-element_VIII_p-element_actinides {
+    background-color: #00aec2;
+    width: 152px;
+}
+
+.p-element_1, .p-element_2, .p-element_3{
+    border-radius: 5px;
+}
+.p-element__b-rigth {
+    border-radius: 0 5px 5px 0;
+}
+
+.p-element__b-left {
+    border-radius:  5px 0 0 5px;
+}
+
+.table_container_dop_elements {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dop-p-element {
+    color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.row_lanthanides {
+    display: flex;
+}
+
+
+.p-element_lanthanides_1 {
+    width: 76px;
+    background-color: #64c0da;
+    margin-bottom: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.p-element_lanthanides_1:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+.p-element_actinides_1 {
+    width: 76px;
+    background-color: #00aec2;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.p-element_actinides_1:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.detail_sidebar {
+    display: flex;
+}
+
+.description {
+    text-align: right;
+}
+
+.description > div {
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+
+.p-element_3 {
+    width: 150px;
+    background-color: #d34c42;
+    margin-left: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.p-element_3 > div {
+    margin-bottom: 16px;
+}
+
+.alkaline_metals {
+    background-color: #d34c42
+}
+
+.alkaline_earth_metals {
+    background-color: #db7c3c;
+}
+
+.transitional_metals {
+    background-color:#99afcb;
+}
+
+.post-transitional_metals {
+    background-color: #357ed3
+}
+
+.metalloids {
+    background-color: #148a45
+}
+
+.non-metals {
+    background-color: #8cc63f;
+}
+
+.halogens {
+    background-color:  #fc0;
+}
+
+.noble_gases {
+    background-color: #fa9d99;
+}
